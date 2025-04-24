@@ -1,0 +1,21 @@
+<!Doctype Html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='mystyle.css') }}" />
+
+    </head>
+
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8  offset-lg-2">
+            <h3 class="mt-5">Live Streaming</h3>
+            <img class="img1" src="{{ url_for('video_feed') }}" >
+        </div>
+    </div>
+</div>
+</body>
+</html>
